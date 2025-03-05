@@ -33,7 +33,7 @@ local function downloadFile(path, func)
   if not isfile(path) then
     local suc, res = pcall(function()
       return game:HttpGet(
-      'https://raw.githubusercontent.com/AtTheZenith/LunarVape/' ..
+      'https://raw.githubusercontent.com/GDuip/LunarVape/' ..
       readfile('newvape/profiles/commit.txt') .. '/' .. select(1, path:gsub('newvape/', '')), true)
     end)
     if not suc or res == '404: Not Found' then
@@ -68,7 +68,7 @@ local function finishLoading()
       if _G.VapeDeveloper then
         loadstring(readfile('newvape/loader.lua'), 'loader')()
       else
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/AtTheZenith/LunarVape/main/loader.lua', true), 'loader')()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/GDuip/LunarVape/main/loader.lua', true), 'loader')()
       end
       ]]
       if _G.VapeDeveloper then
@@ -107,7 +107,7 @@ if not _G.VapeIndependent then
     if not _G.VapeDeveloper then
       local suc, res = pcall(function()
         return game:HttpGet(
-        'https://raw.githubusercontent.com/AtTheZenith/LunarVape/' ..
+        'https://raw.githubusercontent.com/GDuip/LunarVape/' ..
         readfile('newvape/profiles/commit.txt') .. '/games/' .. game.PlaceId .. '.lua', true)
       end)
       if suc and res ~= '404: Not Found' then
