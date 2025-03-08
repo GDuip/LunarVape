@@ -24,8 +24,8 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AtTheZenith/LunarVape/main/loader.lua", true))()
 ```
 
-3. Wait until a notification appears indicating Lunar Vale has loaded.
--# The game may freeze due to a bad executor, wait 1-2 minutes as the script downloads all of the data and icons.
+3. Wait until a notification appears indicating Lunar Vape has loaded.
+(The game may freeze due to a bad executor, wait 1-2 minutes as the script downloads all of the data and icons.)
 
 ## Possible Issues
 Half of the time its usually the scripting utility at fault, please make sure the utility meets certain quality standards such as.
@@ -41,6 +41,8 @@ If its not the supposed utility at fault, please try some troubleshooting steps.
 
 ## Developers & Credits
 [AtTheZenith](https://github.com/AtTheZenith) - Lead maintainer of the LunarVape fork - @atthezenith on Discord
+<br/>
+[null-wtf](https://github.com/null-wtf) - Maintainer of the LunarVape fork - @null.wtf on Discord
 <br/>
 [7GrandDad](https://github.com/7GrandDadPGN) - Former maintainer of the parent project VapeV4ForRoblox
 <br/>
